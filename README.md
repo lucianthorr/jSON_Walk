@@ -28,7 +28,7 @@ Plate23.02/10/8/63/157.png<br>
 >python jSON_Walk.py
 creates a file called 'plateContents.json' that should contain the following:
 
-{"Plate22.01":<br>["/8/63/156.png","/8/64/156.png","/10/256/620.png","/10/256/621.png],"Plate22.02":<br>["/10/8/63/156.png","/10/8/63/157.png"]}
+{"Plate22.01":<br>["/8/63/156.png","/8/64/156.png","/10/256/620.png","/10/256/621.png"],<br>"Plate22.02":<br>["/10/8/63/156.png","/10/8/63/157.png"]}
 
 ============
 About:
