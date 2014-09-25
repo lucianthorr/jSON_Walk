@@ -16,19 +16,19 @@ The value is an array of each file and its path within the key-folder.
 ===========
 Example
 
-In a folder containing:
-jSON_Walk.py
-Plate22.01/8/63/156.png
-Plate22.01/8/64/156.png
-Plate22.01/10/256/620.png
-Plate22.01/10/256/621.png
-Plate23.02/10/8/63/156.png
-Plate23.02/10/8/63/157.png
+In a folder containing:<br>
+jSON_Walk.py<br>
+Plate22.01/8/63/156.png<br>
+Plate22.01/8/64/156.png<br>
+Plate22.01/10/256/620.png<br>
+Plate22.01/10/256/621.png<br>
+Plate23.02/10/8/63/156.png<br>
+Plate23.02/10/8/63/157.png<br>
 
 >python jSON_Walk.py
 creates a file called 'plateContents.json' that should contain the following:
 
-{"Plate22.01":["/8/63/156.png","/8/64/156.png","/10/256/620.png","/10/256/621.png],"Plate22.02":["/10/8/63/156.png","/10/8/63/157.png"]}
+{"Plate22.01":<br>["/8/63/156.png","/8/64/156.png","/10/256/620.png","/10/256/621.png],"Plate22.02":<br>["/10/8/63/156.png","/10/8/63/157.png"]}
 
 ============
 About:
